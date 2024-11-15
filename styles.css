@@ -1,0 +1,52 @@
+body{
+    all:unset;
+    font-family: "poppins";
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.exercicios{
+    font-family: "poppins";
+    color:white;
+    border-radius: 0;
+    border: 0;
+    width:100%;
+    background-color: green;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+.exercicios:hover{
+    background-color: rgb(5, 121, 5);
+}
+textarea{
+    text-align: center;
+    resize:none;
+}
+#entrada1{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#question{
+    text-align: center;
+}
+#botaoQuestao{
+    font-family: "poppins";
+    background-color: green;
+    border: 0;
+    padding: 10px 24px;
+    border-radius: 4px;
+    color: white;
+    cursor:pointer;
+    margin-top: 20px;
+}
+#info{
+    margin-left: 2rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+}
+
+
