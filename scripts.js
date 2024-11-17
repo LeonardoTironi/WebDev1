@@ -52,5 +52,15 @@ function ex3(){
 }
 
 function ex4(){
-    
+    const element = document.getElementById("matriz");
+    let texto = element.value;
+    let linhas = texto.split(";");
+    let total = texto.split(" ");
+    console.log(linhas.length);
+    console.log(total.length);
+    let colunas = total.length/linhas.length
+    alert(`Essa é uma matriz de dimensão ${linhas.length}x${colunas}\nA matriz tem ${linhas.length} linhas e ${colunas} colunas.`)
+
+
+    //linhas[linhas.length-1] para testar se o último elemento é ";", mas não é necessário para o exercício eu acho
 }
